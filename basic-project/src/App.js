@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const urlReact = "https://www.reactjs.org";
+
+const user = {
+  name: "Jaime",
+  surname: "Perez",
+};
+
+const element = (
+  <div>
+    <h1>Hello World</h1>
+  </div>
+);
+
+const getCompleteName = (name, surname) => {
+  return (
+    <p>
+      Hola {name} {surname}, visita <a href={urlReact}> este link</a>
+    </p>
+  );
+};
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {element}
+      {getCompleteName(user.name, user.surname)}
     </div>
   );
-}
+};
 
 export default App;
