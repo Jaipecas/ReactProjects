@@ -6,6 +6,7 @@ import {
 import RenderizadoElemntos from "./ConceptosPrincipales/renderizadoElementos";
 import ComponentesPropiedades from "./ConceptosPrincipales/componentesPropiedades";
 import EstadoCicloVida from "./ConceptosPrincipales/estadoCicloVida";
+import ManejandoEventos from "./ConceptosPrincipales/manejandoEventos";
 
 const user = {
   name: "Jaime",
@@ -20,6 +21,7 @@ const App = () => {
       <RenderizadoElemntos />
       <ComponentesPropiedades user={user} />
       <EstadoCicloVida name="Jaime" />
+      <ManejandoEventos/>
     </div>
   );
 };
