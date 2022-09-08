@@ -10,6 +10,7 @@ import ManejandoEventos from "./ConceptosPrincipales/manejandoEventos";
 import RenderizadoCondicional from "./ConceptosPrincipales/renderizadoCondicional";
 import ListasKeys from "./ConceptosPrincipales/listasKeys";
 import Formularios from "./ConceptosPrincipales/formularios";
+import LevantarEstado from "./ConceptosPrincipales/levantarEstado";
 
 const user = {
   name: "Pepe",
@@ -34,6 +35,7 @@ const App = () => {
       <RenderizadoCondicional isLogged={false} name={user.name} />
       <ListasKeys numbers={addId([1, 2, 3, 4, 5])} />
       <Formularios></Formularios>
+      <LevantarEstado/>
     </div>
   );
 };
