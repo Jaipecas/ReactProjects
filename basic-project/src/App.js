@@ -11,6 +11,9 @@ import RenderizadoCondicional from "./ConceptosPrincipales/renderizadoCondiciona
 import ListasKeys from "./ConceptosPrincipales/listasKeys";
 import Formularios from "./ConceptosPrincipales/formularios";
 import LevantarEstado from "./ConceptosPrincipales/levantarEstado";
+import ComposicionHerencia from "./ConceptosPrincipales/composicionHerencia";
+import ContextPrueba from "./ConceptosPrincipales/context/context";
+
 
 const user = {
   name: "Pepe",
@@ -36,6 +39,8 @@ const App = () => {
       <ListasKeys numbers={addId([1, 2, 3, 4, 5])} />
       <Formularios></Formularios>
       <LevantarEstado/>
+      <ComposicionHerencia/>
+      <ContextPrueba/>
     </div>
   );
 };
