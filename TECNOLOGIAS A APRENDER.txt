@@ -1,0 +1,19 @@
+Next.js
+
+Tailwind
+
+Storybook
+
+React router 
+	Configurar la división de código basada en rutas en tu aplicación
+	https://reactrouter.com/en/main
+
+Redux
+
+GraphQL 
+	Es un lenguaje de consulta y manipulación de datos para APIs, 
+	y un entorno de ejecución para realizar consultas con datos existentes.
+
+Formik : Para formularios. Si lo que estás buscando es una solución completa incluyendo validación,
+tener en cuenta los campos visitados y manejar el envío del formulario, 
+Formik es una de las opciones populares.
