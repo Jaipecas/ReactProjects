@@ -13,6 +13,7 @@ import Formularios from "./ConceptosPrincipales/formularios";
 import LevantarEstado from "./ConceptosPrincipales/levantarEstado";
 import ComposicionHerencia from "./ConceptosPrincipales/composicionHerencia";
 import ContextPrueba from "./ConceptosPrincipales/context/context";
+import { PrimerVistazoHookEstado, PrimerVistazoHookEfecto } from "./hooks/primerVistazo";
 
 
 const user = {
@@ -41,6 +42,9 @@ const App = () => {
       <LevantarEstado/>
       <ComposicionHerencia/>
       <ContextPrueba/>
+      <h1>HOOKS</h1>
+      <PrimerVistazoHookEstado/>
+      <PrimerVistazoHookEfecto/>
     </div>
   );
 };
