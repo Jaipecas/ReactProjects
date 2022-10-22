@@ -14,6 +14,8 @@ import LevantarEstado from "./ConceptosPrincipales/levantarEstado";
 import ComposicionHerencia from "./ConceptosPrincipales/composicionHerencia";
 import ContextPrueba from "./ConceptosPrincipales/context/context";
 import { PrimerVistazoHookEstado, PrimerVistazoHookEfecto } from "./hooks/primerVistazo";
+import HooksEstado from "./hooks/hooksEstado";
+import HooksEfecto from "./hooks/hooksEfecto";
 
 
 const user = {
@@ -45,6 +47,8 @@ const App = () => {
       <h1>HOOKS</h1>
       <PrimerVistazoHookEstado/>
       <PrimerVistazoHookEfecto/>
+      <HooksEstado tittle = "Hooks Estado"/>
+      <HooksEfecto/>
     </div>
   );
 };
